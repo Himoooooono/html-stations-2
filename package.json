@@ -4,8 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.36.1",
-    "expect-playwright": "^0.8.0",
     "lite-server": "^2.6.1",
     "prettier": "^2.4.1",
     "simple-git-hooks": "^2.6.1",
@@ -18,6 +16,9 @@
   },
   "simple-git-hooks": {},
   "dependencies": {
-    "cypress-real-events": "^1.7.0"
+    "@playwright/test": "^1.39.0",
+    "cypress-real-events": "^1.7.0",
+    "expect-playwright": "^0.8.0",
+    "playwright": "^1.39.0"
   }
 }

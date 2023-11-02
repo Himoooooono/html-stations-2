@@ -1,4 +1,4 @@
-import { defineConfig, devices, expect } from '@playwright/test'
+import { defineConfig, expect, } from '@playwright/test'
 import { matchers } from 'expect-playwright'
 
 expect.extend(matchers)
@@ -37,8 +37,10 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'Google Chrome',
+      use: {
+        channel: 'chrome',
+      },
     },
     // {
     //   name: 'firefox',
